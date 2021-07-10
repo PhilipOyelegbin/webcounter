@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	background: url(counterbg.jpg);
+	font-family: san-olid;serif;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+div {
+	width: 200px;
+	border: solid 2px #fff;
+	margin: 20px auto;
+	text-align: center;
+	padding: 10px 0;
+}
+
+h2 {
+	color: #fff;
+}
+
+h1 {
+	color: green;
+	font-size: 4em;
+}
+
+button {
+	background: darkblue;
+	color: #fff;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+button:hover {
+	background: red;
+}
